@@ -1,0 +1,15 @@
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\bin\Debug\net9.0\ApproximationCalculation.exe
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\bin\Debug\net9.0\ApproximationCalculation.deps.json
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\bin\Debug\net9.0\ApproximationCalculation.runtimeconfig.json
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\bin\Debug\net9.0\ApproximationCalculation.dll
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\bin\Debug\net9.0\ApproximationCalculation.pdb
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.AssemblyInfoInputs.cache
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.AssemblyInfo.cs
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.csproj.CoreCompileInputs.cache
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.sourcelink.json
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.dll
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\refint\ApproximationCalculation.dll
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.pdb
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ApproximationCalculation.genruntimeconfig.cache
+D:\Workspace\dotNet\source\repos\HomeAssignment\ApproximationCalculation\obj\Debug\net9.0\ref\ApproximationCalculation.dll

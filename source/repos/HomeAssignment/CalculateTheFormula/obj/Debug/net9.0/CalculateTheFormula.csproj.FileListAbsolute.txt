@@ -1,0 +1,15 @@
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\bin\Debug\net9.0\CalculateTheFormula.exe
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\bin\Debug\net9.0\CalculateTheFormula.deps.json
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\bin\Debug\net9.0\CalculateTheFormula.runtimeconfig.json
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\bin\Debug\net9.0\CalculateTheFormula.dll
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\bin\Debug\net9.0\CalculateTheFormula.pdb
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.AssemblyInfoInputs.cache
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.AssemblyInfo.cs
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.csproj.CoreCompileInputs.cache
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.sourcelink.json
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.dll
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\refint\CalculateTheFormula.dll
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.pdb
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\CalculateTheFormula.genruntimeconfig.cache
+D:\Workspace\dotNet\source\repos\HomeAssignment\CalculateTheFormula\obj\Debug\net9.0\ref\CalculateTheFormula.dll
