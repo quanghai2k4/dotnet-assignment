@@ -12,6 +12,7 @@ internal class MainView
         Console.WriteLine("Commands:");
         Console.WriteLine("add <id> <title> <genre> <platform> <year> <description>");
         Console.WriteLine("remove <id>");
+        Console.WriteLine("removeall");
         Console.WriteLine("list");
         Console.WriteLine("get <id>");
     }

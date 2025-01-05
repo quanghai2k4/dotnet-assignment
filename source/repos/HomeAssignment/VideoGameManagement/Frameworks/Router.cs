@@ -36,6 +36,9 @@ internal static class Router
                 }
                 _gameController.RemoveGame(args[1]);
                 break;
+            case "removeall":
+                _gameController.ClearAllGames();
+                break;
             case "list":
                 _gameController.ListAllGames();
                 break;

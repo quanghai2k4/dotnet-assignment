@@ -50,6 +50,10 @@ internal class GameRepos
             _games.Remove(gameToRemove);
         }
     }
+    public void ClearAllGames()
+    {
+        _games.Clear();
+    }
     public Game GetGame(string id)
     {
         return _games.FirstOrDefault(g => g.Id == id);

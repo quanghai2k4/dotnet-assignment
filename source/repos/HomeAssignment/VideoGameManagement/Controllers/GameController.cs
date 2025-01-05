@@ -31,6 +31,10 @@ internal class GameController
     {
         _gameRepos.RemoveGame(id);
     }
+    public void ClearAllGames()
+    {
+        _gameRepos.ClearAllGames();
+    }
     public void ListAllGames()
     {
         var games = _gameRepos.GetAllGames();
