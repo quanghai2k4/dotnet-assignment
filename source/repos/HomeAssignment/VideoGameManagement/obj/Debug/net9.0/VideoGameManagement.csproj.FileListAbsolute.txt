@@ -1,0 +1,15 @@
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\bin\Debug\net9.0\VideoGameManagement.exe
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\bin\Debug\net9.0\VideoGameManagement.deps.json
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\bin\Debug\net9.0\VideoGameManagement.runtimeconfig.json
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\bin\Debug\net9.0\VideoGameManagement.dll
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\bin\Debug\net9.0\VideoGameManagement.pdb
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.AssemblyInfoInputs.cache
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.AssemblyInfo.cs
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.csproj.CoreCompileInputs.cache
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.sourcelink.json
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.dll
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\refint\VideoGameManagement.dll
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.pdb
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\VideoGameManagement.genruntimeconfig.cache
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\VideoGameManagement\obj\Debug\net9.0\ref\VideoGameManagement.dll
