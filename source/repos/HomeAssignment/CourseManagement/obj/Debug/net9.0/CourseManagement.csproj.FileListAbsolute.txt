@@ -1,0 +1,15 @@
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.AssemblyInfoInputs.cache
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.AssemblyInfo.cs
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.csproj.CoreCompileInputs.cache
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.sourcelink.json
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\bin\Debug\net9.0\CourseManagement.exe
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\bin\Debug\net9.0\CourseManagement.deps.json
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\bin\Debug\net9.0\CourseManagement.runtimeconfig.json
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\bin\Debug\net9.0\CourseManagement.dll
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\bin\Debug\net9.0\CourseManagement.pdb
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.dll
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\refint\CourseManagement.dll
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.pdb
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\CourseManagement.genruntimeconfig.cache
+D:\Workspace\.NET-Assignment\source\repos\HomeAssignment\CourseManagement\obj\Debug\net9.0\ref\CourseManagement.dll
