@@ -1,5 +1,5 @@
-﻿namespace CourseManagement;
-using CourseManagement.Frameworks;
+﻿using CourseManagement.Frameworks;
+namespace CourseManagement;
 
 internal class Program
 {
@@ -10,7 +10,11 @@ internal class Program
         {
             Console.Write(">>>> ");
             var command = Console.ReadLine();
-            Route.Forward(command.Split(' '));
+            if (string.IsNullOrWhiteSpace(command))
+            {
+                continue;
+            }
+            Router.Forward(command);
         }
     }
 }

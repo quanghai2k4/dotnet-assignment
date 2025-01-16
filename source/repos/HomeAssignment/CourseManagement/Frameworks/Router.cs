@@ -5,70 +5,68 @@ using System.Text;
 using System.Threading.Tasks;
 using CourseManagement.Controllers;
 
-namespace CourseManagement.Frameworks;
-internal class Route
+namespace CourseManagement.Frameworks
 {
-    static CourseController _courseController = new();
-    static MainController _mainController = new();
-    public static void Forward(string[] args)
+    internal class Router
     {
-        if (args.Length == 0)
+        static CourseController _courseController = new();
+        static MainController _mainController = new();
+        public static void Forward(string input)
         {
-            _mainController.ShowMenu();
-            return;
+            var command = input.Split('?')[0].ToLower();
+            var param = Params(input);
+            switch (command)
+            {
+                case "add":
+                    _courseController.AddView();
+                    break;
+                case "add_course":
+                    _courseController.AddCourse(param);
+                    break;
+                case "remove":
+                    _courseController.RemoveView();
+                    break;
+                case "remove_confirmed":
+                    _courseController.RemoveCourses(new List<string> { param["name"] });
+                    break;
+                case "remove_all":
+                    _courseController.ClearCourses();
+                    break;
+                case "list":
+                    _courseController.DisplayCourses();
+                    break;
+                case "help":
+                    _mainController.ShowHelp();
+                    break;
+                case "clr":
+                    _mainController.Clear();
+                    break;
+                case "exit":
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Invalid command");
+                    break;
+            }
         }
-        switch (args[0])
+
+        static Dictionary<string, string> Params(string query)
         {
-            case "add":
-                if (args.Length < 5)
+            var param = query.Split(new[] { '?', '&' }, StringSplitOptions.RemoveEmptyEntries);
+            var result = new Dictionary<string, string>();
+            for (int i = 1; i < param.Length; i++)
+            {
+                var keyValue = param[i].Split("=");
+                if (keyValue.Length >= 2)
                 {
-                    Console.WriteLine("Invalid arguments");
-                    return;
+                    result[keyValue[0]] = keyValue[1];
                 }
-                _courseController.AddCourse(new()
+                else
                 {
-                    Name = args[1],
-                    Credit = int.Parse(args[2]),
-                    Description = args[3],
-                    Semester = args[4]
-                });
-                break;
-            case "remove":
-                //if (args.Length < 2)
-                //{
-                //    Console.WriteLine("Invalid arguments");
-                //    return;
-                //}
-                //_courseController.RemoveCourse(new()
-                //{
-                //    Name = args[1]
-                //});
-                if (args.Length < 2)
-                {
-                    Console.WriteLine("Invalid arguments");
-                    return;
+                    Console.WriteLine($"Invalid parameter format: {param[i]}");
                 }
-                var courseNames = args.Skip(1).ToList();
-                _courseController.RemoveCourses(courseNames);
-                break;
-            case "clear":
-                _courseController.ClearCourses();
-                break;
-            case "list":
-                _courseController.DisplayCourses();
-                break;
-            case "help":
-                _mainController.ShowMenu();
-                break;
-            case "clr":
-                _mainController.Clear();
-                break;
-            case "exit":
-                Environment.Exit(0);
-                break;
-            default:
-                Console.WriteLine("Invalid command");
-                break;
+            }
+            return result;
         }
     }
 }

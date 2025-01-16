@@ -13,14 +13,25 @@ internal class CourseController
     CourseRepo _courseRepo = new CourseRepo();
     CourseView _courseView = new CourseView();
 
-    public void AddCourse(Course course)
+    public void AddView()
     {
+        _courseView.AddView();
+    }
+    public void AddCourse(Dictionary<string, string> command)
+    {
+        var course = new Course
+        {
+            Name = command["name"],
+            Credit = int.Parse(command["credit"]),
+            Description = command["description"],
+            Semester = command["semester"]
+        };
         _courseRepo.AddCourse(course);
     }
-    //public void RemoveCourse(Course course)
-    //{
-    //    _courseRepo.RemoveCourse(course);
-    //}
+    public void RemoveView()
+    {
+        _courseView.RemoveView();
+    }
     public void RemoveCourses(List<string> courseNames)
     {
         _courseRepo.RemoveCourses(courseNames);

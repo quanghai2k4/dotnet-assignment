@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace CourseManagement.Views;
 internal class MainView
 {
-    public void DisplayMenu()
+    public void Help()
     {
-        Console.WriteLine("Welcom to Course Management!");
-        Console.WriteLine("add <name> <credit> <description> <semester> - add new course");
+        Console.WriteLine("add - add new course");
         Console.WriteLine("list - display all courses");
-        Console.WriteLine("remove - remove all courses");
+        Console.WriteLine("remove-all - remove all courses");
+        Console.WriteLine("remove?name=course1&name=course2 - remove courses");
         Console.WriteLine("clr - clear console");
         Console.WriteLine("help - display menu");
         Console.WriteLine("exit - exit app");

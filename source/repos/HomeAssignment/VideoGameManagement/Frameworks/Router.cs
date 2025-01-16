@@ -20,13 +20,15 @@ internal static class Router
                 _mainController.ShowMenu();
                 break;
             case "add":
-                if (args.Length < 7)
+                _gameController.AddView();
+                break;
+            case "add_confirmed":
+                if (args.Length < 6)
                 {
                     Console.WriteLine("Invalid command");
                     return;
                 }
-                var description = string.Join(" ", args.Skip(6));
-                _gameController.AddGame(args[1], args[2], args[3], args[4], args[5], description);
+                _gameController.AddGame(args[1], args[2], args[3], args[4], args[5], args[6]);
                 break;
             case "remove":
                 if (args.Length < 2)
@@ -34,7 +36,23 @@ internal static class Router
                     Console.WriteLine("Invalid command");
                     return;
                 }
-                _gameController.RemoveGame(args[1]);
+                if (args[1].ToLower() == "-all")
+                {
+                    Console.Write("Are you sure you want to remove all games? (yes/no): ");
+                    var confirmation = Console.ReadLine();
+                    if (confirmation?.ToLower() == "yes")
+                    {
+                        _gameController.ClearAllGames();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Operation cancelled.");
+                    }
+                }
+                else
+                {
+                    _gameController.RemoveGame(args[1]);
+                }
                 break;
             case "removeall":
                 _gameController.ClearAllGames();

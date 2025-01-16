@@ -13,9 +13,9 @@ internal class MainController
     {
         _mainView = new MainView();
     }
-    public void ShowMenu()
+    public void ShowHelp()
     {
-        _mainView.DisplayMenu();
+        _mainView.Help();
     }
     public void Clear()
     {

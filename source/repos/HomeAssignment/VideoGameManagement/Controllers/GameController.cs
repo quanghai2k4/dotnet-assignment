@@ -26,6 +26,10 @@ internal class GameController
         };
         _gameRepos.AddGame(game);
     }
+    public void AddView()
+    {
+        _gameView.AddView();
+    }
 
     public void RemoveGame(string id)
     {
