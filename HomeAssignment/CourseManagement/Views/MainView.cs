@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CourseManagement.Views;
+
 internal class MainView
 {
     public void Help()
@@ -17,6 +18,7 @@ internal class MainView
         Console.WriteLine("help - display menu");
         Console.WriteLine("exit - exit app");
     }
+
     public void Clear()
     {
         Console.Clear();

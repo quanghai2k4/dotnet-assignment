@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CourseManagement.Models;
+
 internal class Course
 {
-    // Name, Credit, Description, Semester. 
+    // Name, Credit, Description, Semester.
     public string Name { get; set; }
     public int Credit { get; set; }
     public string Description { get; set; }

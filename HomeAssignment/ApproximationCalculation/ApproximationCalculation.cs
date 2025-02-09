@@ -84,12 +84,32 @@ namespace ApproximationCalculation
 
         static void RunTests(double epsilon)
         {
-            TestFunction("CalSin", x => CalSin(x, epsilon), new double[] { 0, 1.4, 2.3 }, new[] { Math.Sin(0), Math.Sin(1.4), Math.Sin(2.3) });
-            TestFunction("CalLn", x => CalLn(x, epsilon), new double[] { 1, 2, 3 }, new double[] { Math.Log(1), Math.Log(2), Math.Log(3) });
-            TestFunction("CalCos", x => CalCos(x, epsilon), new double[] { 0, 1.2, 1.5 }, new[] { Math.Cos(0), Math.Cos(1.2), Math.Cos(1.5) });
+            TestFunction(
+                "CalSin",
+                x => CalSin(x, epsilon),
+                new double[] { 0, 1.4, 2.3 },
+                new[] { Math.Sin(0), Math.Sin(1.4), Math.Sin(2.3) }
+            );
+            TestFunction(
+                "CalLn",
+                x => CalLn(x, epsilon),
+                new double[] { 1, 2, 3 },
+                new double[] { Math.Log(1), Math.Log(2), Math.Log(3) }
+            );
+            TestFunction(
+                "CalCos",
+                x => CalCos(x, epsilon),
+                new double[] { 0, 1.2, 1.5 },
+                new[] { Math.Cos(0), Math.Cos(1.2), Math.Cos(1.5) }
+            );
         }
 
-        static void TestFunction(string name, Func<double, double> func, double[] inputs, double[] expectedOutputs)
+        static void TestFunction(
+            string name,
+            Func<double, double> func,
+            double[] inputs,
+            double[] expectedOutputs
+        )
         {
             Console.WriteLine();
             Console.WriteLine($"Function: {name}");
@@ -105,9 +125,10 @@ namespace ApproximationCalculation
                 //bool passed = actual == expected;
 
                 bool passed = Math.Abs(actual - expected) < 1e-10;
-                Console.WriteLine($"Input: {input}, Expected: {expected}, Actual: {actual}, Time: {stopwatch.ElapsedMilliseconds}ms, Result: {(passed ? "Passed" : "Failed")}");
+                Console.WriteLine(
+                    $"Input: {input}, Expected: {expected}, Actual: {actual}, Time: {stopwatch.ElapsedMilliseconds}ms, Result: {(passed ? "Passed" : "Failed")}"
+                );
             }
-
         }
 
         static void Main(string[] args)

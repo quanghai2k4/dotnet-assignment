@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace VideoGameManagement.Models;
+
 internal class Game
 {
     public string Id { get; set; }

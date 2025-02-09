@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace VideoGameManagement.Views;
+
 internal class MainView
 {
     public void ShowMenu()
@@ -16,6 +17,7 @@ internal class MainView
         Console.WriteLine("list");
         Console.WriteLine("get <id>");
     }
+
     public void Clear()
     {
         Console.Clear();

@@ -8,12 +8,20 @@ using VideoGameManagement.Repositories;
 using VideoGameManagement.Views;
 
 namespace VideoGameManagement.Controllers;
+
 internal class GameController
 {
     GameRepos _gameRepos = new();
     GameView _gameView = new();
 
-    public void AddGame(string id, string title, string genre, string platform, string year, string description)
+    public void AddGame(
+        string id,
+        string title,
+        string genre,
+        string platform,
+        string year,
+        string description
+    )
     {
         var game = new Game
         {
@@ -22,10 +30,11 @@ internal class GameController
             Genre = genre,
             Platform = platform,
             Year = year,
-            Description = description
+            Description = description,
         };
         _gameRepos.AddGame(game);
     }
+
     public void AddView()
     {
         _gameView.AddView();
@@ -35,15 +44,18 @@ internal class GameController
     {
         _gameRepos.RemoveGame(id);
     }
+
     public void ClearAllGames()
     {
         _gameRepos.ClearAllGames();
     }
+
     public void ListAllGames()
     {
         var games = _gameRepos.GetAllGames();
         _gameView.ShowAllGames(games);
     }
+
     public void ListGame(string id)
     {
         var game = _gameRepos.GetGame(id);

@@ -11,6 +11,7 @@ namespace CourseManagement.Frameworks
     {
         static CourseController _courseController = new();
         static MainController _mainController = new();
+
         public static void Forward(string input)
         {
             var command = input.Split('?')[0].ToLower();

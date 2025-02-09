@@ -1,4 +1,5 @@
 ﻿using CourseManagement.Frameworks;
+
 namespace CourseManagement;
 
 internal class Program

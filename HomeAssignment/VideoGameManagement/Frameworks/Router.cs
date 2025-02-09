@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using VideoGameManagement.Controllers;
 
 namespace VideoGameManagement.Frameworks;
+
 internal static class Router
 {
     static GameController _gameController = new();

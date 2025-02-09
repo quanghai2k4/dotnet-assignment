@@ -79,16 +79,27 @@ namespace CalculatetheFormula
 
             return fact;
         }
+
         static void RunTests()
         {
             TestFunction("CalS1", CalS1, new[] { 1, 2, 3 }, new[] { 1.0, 0.8, 0.8714285714 });
             TestFunction("CalS2", CalS2, new[] { 1, 2, 3 }, new[] { -1.0, -3.0, -1.666666667 });
             TestFunction("CalS5", CalS5, new[] { 1, 2, 3 }, new[] { 0.5, 0.25, 0.166666667 });
-            TestFunction("CalS6", CalS6, new[] { 1, 2, 3 }, new[] { 1.0, 0.833333333, 0.761904762 });
+            TestFunction(
+                "CalS6",
+                CalS6,
+                new[] { 1, 2, 3 },
+                new[] { 1.0, 0.833333333, 0.761904762 }
+            );
             TestFunction("CalS7", CalS7, new[] { 1, 2, 3 }, new[] { 3.0, 5.0, 6.333333333 });
         }
 
-        static void TestFunction(string name, Func<int, double> func, int[] inputs, double[] expectedOutputs)
+        static void TestFunction(
+            string name,
+            Func<int, double> func,
+            int[] inputs,
+            double[] expectedOutputs
+        )
         {
             Console.WriteLine($"Function: {name}");
             for (int i = 0; i < inputs.Length; i++)
@@ -103,7 +114,9 @@ namespace CalculatetheFormula
                 //bool passed = actual == expected;
 
                 bool passed = Math.Abs(actual - expected) < 1e-9;
-                Console.WriteLine($"Input: {input}, Expected: {expected}, Actual: {actual}, Time: {stopwatch.ElapsedMilliseconds}ms, Result: {(passed ? "Passed" : "Failed")}");
+                Console.WriteLine(
+                    $"Input: {input}, Expected: {expected}, Actual: {actual}, Time: {stopwatch.ElapsedMilliseconds}ms, Result: {(passed ? "Passed" : "Failed")}"
+                );
             }
             Console.WriteLine();
         }

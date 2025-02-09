@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VideoGameManagement.Models;
 using VideoGameManagement.Frameworks;
+using VideoGameManagement.Models;
 
 namespace VideoGameManagement.Views;
+
 internal class GameView
 {
     public void ShowGame(Game game)
@@ -26,6 +27,7 @@ internal class GameView
             Console.WriteLine($"Description: {game.Description}");
         }
     }
+
     public void ShowAllGames(List<Game> games)
     {
         foreach (var game in games)
@@ -39,6 +41,7 @@ internal class GameView
             Console.WriteLine();
         }
     }
+
     public void AddView()
     {
         Console.WriteLine("Enter the game details:");
@@ -55,6 +58,8 @@ internal class GameView
         Console.Write("Description: ");
         var description = Console.ReadLine();
 
-        Router.Forward(new string[] { "add_confirmed", id, title, genre, platform, year, description });
+        Router.Forward(
+            new string[] { "add_confirmed", id, title, genre, platform, year, description }
+        );
     }
 }
